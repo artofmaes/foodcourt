@@ -1,0 +1,26 @@
+//Kleurenpallet
+
+$hoofdkleur: #8dc04e;
+$accentkleur: #ffcc08;
+$taccentkleur: rgba(255,204,8,.2);
+$ttaccentkleur: rgba(255,204,8,.5);
+$donkerehoofdkleur: darken($hoofdkleur, 30%);
+$achtergrondkleurtje: rgba(0,0,0,.5);
+
+$tekstkleur: black;
+$extratekstkleur: lighten($tekstkleur, 50%);
+$achtergrondkleur: lighten($tekstkleur, 80%);
+$paginakleur: lighten($tekstkleur, 90%);
+
+$basiskleur: rgb(255,255,255);
+
+// Fonts
+
+$hoofdfont: "Roboto", Helvetica, Arial, sans-serif;
+$titelfont: "Roboto Condensed", Helvetica, Arial, sans-serif;
+
+//Schermbreedtes
+
+$smal-scherm: 520px;
+$medium-scherm: 1000px;
+$breed-scherm: 2320px;
